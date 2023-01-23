@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador Alura-Latam</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap" rel="stylesheet">
+        <script src="js/java.js"></script>
+    </head>
+
+    <body id="body">
+
+        <header>
+            <a href="https://www.aluracursos.com" target="_blank"><img src="img/logo.png" alt="logo de alura"></a>
+        </header>
+    
+        <main>
+            <section class="text_buttons">
+                <div >
+                    <textarea id="textIngresado" class="textIngresado" rows="8" autofocus placeholder="Ingrese el texto aquí"></textarea>
+                </div>
+                <div>
+                    <p class="textAdvertencia"><span class="iconAdvertencia">
+                        <img src="img/exclamation.png" alt="signo de exclamación">
+                    </span>Solo letras minúsculas y sin tildes.</p>
+
+                    <div id="buttons" class="buttons">
+                        <button class="buttonEncriptar" onclick="verEncriptado()">Encriptar</button>
+                        <button class="buttonDesencriptar" onclick="verDesencriptado()" >Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resultado" class="resultado">
+                <div class="imgAvatar">
+                    <img src="img/avatar.png" alt="Imagen de persona">
+                </div>
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </section>
+        </main>
+        
+        <footer>
+            <p class="copyright">&copy 2022 Pablo Pérez | All rights reserved.</p>
+        </footer>
+
+    </body>
+    
+</html>
